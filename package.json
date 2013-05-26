@@ -1,12 +1,11 @@
 {
-  "name": "hn-score-cache",
-  "version": "0.0.1",
-  "description": "A cache for retrieving hn scores, only makes one outbound req at a time",
-  "keywords": [],
-  "author": "Calvin French-Owen <calvin@segment.io>",
+  "name": "hn-item-cache",
+  "version": "0.0.2",
+  "description": "A cache for retrieving Hacker News items, only making one outbound request at a time.",
+  "author": "Segment.io <friends@segment.io>",
   "dependencies": {
     "lru-cache": "~2.3.0",
-    "hn-score": "0.0.2",
+    "hn-item": "0.0.4",
     "ms": "~0.6.1"
   },
   "main": "lib/index"

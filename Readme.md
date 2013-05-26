@@ -1,7 +1,7 @@
 
-# hn-score-cache
+# hn-item-cache
 
-  A cache for retrieving hn scores, only makes one outbound req at a time
+  A cache for retrieving Hacker News items, only making one outbound request at a time.
 
 ## License
 
