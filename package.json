@@ -1,6 +1,6 @@
 {
   "name": "hn-item-cache",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A cache for retrieving Hacker News items, only making one outbound request at a time.",
   "author": "Segment.io <friends@segment.io>",
   "dependencies": {
