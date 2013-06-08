@@ -1,13 +1,15 @@
 {
   "name": "hn-item-cache",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A cache for retrieving Hacker News items, only making one outbound request at a time.",
   "author": "Segment.io <friends@segment.io>",
+  "repository": "https://github.com/segmentio/hn-item-cache.git",
   "dependencies": {
     "lru-cache": "~2.3.0",
     "hn-item": "0.0.4",
     "ms": "~0.6.1",
-    "defaults": "~1.0.0"
+    "defaults": "~1.0.0",
+    "debug": "~0.7.2"
   },
   "main": "lib/index"
 }
